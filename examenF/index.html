@@ -1,0 +1,30 @@
+<!--creamos nuestra estuctura basica de html 
+qui se muestra la estructura basica de html5-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa del tesoro</title>
+    <!--creamos la ruta de nuestra carpeta de css para poderle dar estilo a nuestro
+        proyecto  
+    -->
+    <link rel="stylesheet" href="css/main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head> 
+<body>
+    <h1>Busque el tesoro</h1>
+    <!--agregamos la imagen le asignamos la ruta  de nuestra carpeta a donde se va adirigir 
+    le damos el tamaño ancho,altura y una id para que posteriomete podamos usar eta imegn como esenario -->
+    <img src="img/pai.png" width="400" height="400" id="map" draggable="false">
+
+    <!--creamos un parafo lo nombramos id="distance"-->
+    <p id="distance"></p>
+<!--  hacemos unos enlaces de js para poder  llamar a nuestras funciones -->
+    <script src="js/helper.js" charset="utf-8"></script>
+    <script src="js/game.js" charset="utf-8"></script>
+
+    
+</body>
+</html>

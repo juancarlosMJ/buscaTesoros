@@ -1,0 +1,25 @@
+/**  Creamos nuestra estructura  los estilos de nuestro proyecto
+      como tamaño, color,ancho altura**/
+body {
+  background: #34495e;/*selecciona el valor de color de primer plano del contenido de elemento de texto */
+  color: #fff;/* selecciona el valor de color de primer plano del contenido de elemento de texto*/
+  padding: 0;/* es el espacio entre el contenido del elemento y su borde*/
+  margin: 0; /* establece el margen para los cuatro lados*/
+  height: 100vh;/* le agregamos el alto */
+  display: flex; /*para centrar nuestra imagen usamos */
+  justify-content: center; /* de igail madera esta propiedad servie para justificar nuestro contenido nuestro imagen*/
+  align-items: center; /* esta propiedad alinea nuestro contenido*/
+   flex-direction:column;/*especifica cómo colocar los objetos flexibles  */
+}
+
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+p {
+  display: block;/* establece los tipos de visualización interna y externa de un elemento.*/
+}
